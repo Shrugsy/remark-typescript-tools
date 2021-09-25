@@ -164,7 +164,7 @@ function defaultAssembleReplacementNodes(
         { label: 'JavaScript', value: 'js', },
       ]}
     >        
-        <TabItem value="ts">`,
+        <TabItem value="ts" onClick={(e) => {console.log('e: ', e)}}>`,
     },
     {
       ...node,
